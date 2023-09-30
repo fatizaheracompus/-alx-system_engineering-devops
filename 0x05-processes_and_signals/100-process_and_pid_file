@@ -1,4 +1,4 @@
-#!/usr/bin/env:
+#!/usr/bin/env bash
 #Bash script that:
 #Create a file /var/run/myscript.pid containing the script PID.
 #Displays "To infinity and beyond" indefinitely
@@ -22,4 +22,3 @@ do
   trap 'echo "I hate the kill command" && terminator' SIGTERM
   trap 'terminator' SIGQUIT
 done
-

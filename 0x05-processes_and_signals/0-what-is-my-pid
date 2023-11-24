@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Bash script that displays its own PID.
+#Bash script that display it own PID.
 
 echo $$
 

@@ -1,5 +1,5 @@
 #!/bin/bash env
-# Bash script that sets up a few firewall rules on web-01.
+# script that set up few firewall rule on web-01.
 ufw default deny incoming
 ufw allow 22/tcp
 ufw allow 80/tcp
